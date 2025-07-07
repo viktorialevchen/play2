@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>квадрат из блоков</title>
+
+  <style>
+    .redblok, .purpleblock, .greenblock, .blueblock {
+      position: relative;
+      width: 13rem;
+      height: 2rem;
+      margin-top: 2rem;
+    }
+
+    .redblok { background-color: red; }
+    .purpleblock { background-color: purple; }
+    .greenblock { background-color: green; }
+    .blueblock { background-color: blue; }
+  </style>
+</head>
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>квадрат из блоков</title>
+
+  <style>
+    .redblok, .purpleblock, .greenblock, .blueblock {
+      position: relative;
+      width: 13rem;
+      height: 2rem;
+      margin-top: 2rem;
+    }
+
+    .redblok { background-color: red; }
+    .purpleblock { background-color: purple; }
+    .greenblock { background-color: green; }
+    .blueblock { background-color: blue; }
+  </style>
+</head>
+<body>
+  <div class="mainbox">
+    <div class="redblok"></div>
+    <div class="purpleblock"></div>
+    <div class="greenblock"></div>
+    <div class="blueblock"></div>
+  </div>
+
+  <script>
+    document.querySelector('.mainbox').onclick = function () {
+      const red = document.querySelector('.redblok');
+      const purple = document.querySelector('.purpleblock');
+      const green = document.querySelector('.greenblock');
+      const blue = document.querySelector('.blueblock');
+
+   
+      red.style.left = "15rem"; 
+      red.style.position = "relative";
+
+ 
+     purple.style.left="8rem"
+      purple.style.position = "relative";
+      purple.style.left = "13rem";
+      purple.style.height = "9rem";
+      purple.style.width = "2rem";
+      purple.style.top="-2rem"
+     
+
+
+      green.style.position = "relative";
+      green.style.right = "30rem";
+      green.style.left = "15rem";
+     green.style.top = "-4rem";
+
+
+ 
+      blue.style.left = "28rem";
+      blue.style.height = "9rem";
+      blue.style.width = "2rem";
+      blue.style.top="-17rem"
+      blue.style.position = "relative";
+    };
+  </script>
+</body>
+</html>
+
+</body>
+</html>
